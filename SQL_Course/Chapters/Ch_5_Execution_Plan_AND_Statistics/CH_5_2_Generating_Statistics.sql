@@ -26,6 +26,6 @@
             2 WAYS TO GENERATE OPTIMIZER STATISTICS :
                 1. ANALYZE TABLE <TABLE_NAME> COMPUTE STATISTICS;  -> This is not used by anyone.
                 2. DBMS_STATS PACKAGE : 
-                    exec dbms_stats.gather_database_stats;
+                    exec dbms_stats.gather_database_stats; 
 
 */
